@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enderchestmod",
+  "version": "${version}",
+  "name": "EnderChestMod",
+  "description": "Opens the players enderchest with a command",
+  "authors": ["SirRemus"],
+  "contact": {
+    "repo": "https://github.com/SirRemus/EnderChestMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/enderchestmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "net.sirremus.enderchest.EnderChestMod"
+    ]
+  },
+  "mixins": [
+    "EnderChestMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.*"
+  }
+}
