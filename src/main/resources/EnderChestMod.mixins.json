@@ -1,6 +1,0 @@
-{
-  "required": true,
-  "package": "net.sirremus.enderchest.mixin",
-  "compatibilityLevel": "JAVA_16",
-  "mixins": []
-}
